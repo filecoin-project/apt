@@ -1,0 +1,1 @@
+deb [signed-by=/etc/apt/trusted.gpg.d/filecoin.gpg] https://filecoin-project.github.io/apt ./
