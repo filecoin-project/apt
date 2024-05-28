@@ -1,11 +1,18 @@
 # apt
-An official, signed Debian APT Software Repository for FileCoin software.
+An official, signed Debian APT Software Repository for Filecoin software.
 
 This is following the guide materials from: https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html
 
 Once this repo is working, setup for users should be:
+
 ```
-curl -s --compressed "https://filecoin-project.github.io/apt/KEY.gpg" | gpg --dearmor | sudo tee /etc/apt/trusted.gpg.d/filecoin.gpg >/dev/null
-sudo curl -s --compressed -o /etc/apt/sources.list.d/my_list_file.list "https://filecoin-project.github.io/apt/my_list_file.list"
+echo "deb http://filecoin-project.github.com/apt stable main" | sudo tee /etc/apt/sources.list.d/curio-repo.list
+
+wget -O - http://filecoin-project.github.com/apt/KEY.gpg | sudo apt-key add -
+
 sudo apt update
+
+sudo apt install curio-cuda
+   or
+sudo apt install curio-opencl
 ```
