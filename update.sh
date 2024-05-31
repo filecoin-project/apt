@@ -39,7 +39,7 @@ EOF
 } >> "$RELEASE_FILE"
 
 # Sign the Release file
-gpg --default-key "support@curiostorage.org" -abs -o "dists/stable/Release.gpg" "$RELEASE_FILE"
-gpg --default-key "support@curiostorage.org" --clearsign -o "dists/stable/InRelease" "$RELEASE_FILE"
+gpg --default-key "support@curiostorage.org" --armor --yes --batch --detach-sign -o "dists/stable/Release.gpg" "$RELEASE_FILE"
+gpg --default-key "support@curiostorage.org" --clearsign --yes --batch -o "dists/stable/InRelease" "$RELEASE_FILE"
 
 echo "Repository updated and indexed successfully."
