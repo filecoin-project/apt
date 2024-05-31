@@ -41,4 +41,6 @@ EOF
 gpg --default-key "support@curiostorage.org" -abs -o Release.gpg dists/stable/Release 
 gpg --default-key "support@curiostorage.org" --clearsign -o InRelease dists/stable/Release
 
+# Sign the Release file
+gpg --default-key "support@curiostorage.org" --detach-sign -o "dists/stable/Release.gpg" "dists/stable/Release"
 echo "Repository updated and indexed successfully."

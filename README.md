@@ -3,14 +3,12 @@ A signed Debian APT Software Repository for Filecoin software.
 
 Current packages include curio-cuda and curio-opencl from Curio Storage, Inc.
 
-This is following the guide materials from: https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html
-
-Once this repo is working, setup for users should be:
+Users can benefit from this repo on their Ubuntu / Debian system by doing:
 
 ```
-echo "deb http://filecoin-project.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/curio-repo.list
+echo "deb https://filecoin-project.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/curio-repo.list
 
-wget -O - http://filecoin-project.github.io/apt/KEY.gpg | sudo apt-key add -
+wget -O - https://filecoin-project.github.io/apt/KEY.gpg | sudo apt-key add -
 
 sudo apt update
 
