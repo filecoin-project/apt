@@ -1,0 +1,8 @@
+Archive: stable
+Component: main
+Origin: CurioStorage
+Label: CurioStorage
+Architectures: amd64,arm64
+MD5Sum:
+ 2e90b55e28baacd682ac1bedfda3629d dists/stable/main/binary-arm64/Packages.gz
+ a0cba545a115ea5b39a378260d92cfa0 dists/stable/main/binary-amd64/Packages.gz

@@ -1,6 +1,6 @@
 #!/bin/bash
 
-echo "Copy new DEB files to pool/main/$ARCH, then run this script"
+echo "Copy new DEB files to pool/main/\$ARCH, then run this script"
 echo "This also requires the private key for support@curiostorage.org in your keyring"
 
 REPO_PATH=$(dirname "$(realpath "$0")")
@@ -38,7 +38,7 @@ EOF
   find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " $2 }'
 } >> "$RELEASE_FILE"
 
-gpg --default-key "support@curiostorage.org" -abs -o Release.gpg Release 
-gpg --default-key "support@curiostorage.org" --clearsign -o InRelease Release
+gpg --default-key "support@curiostorage.org" -abs -o Release.gpg dists/stable/Release 
+gpg --default-key "support@curiostorage.org" --clearsign -o InRelease dists/stable/Release
 
 echo "Repository updated and indexed successfully."
