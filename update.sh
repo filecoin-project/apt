@@ -33,7 +33,7 @@ Label: CurioStorage
 Suite: stable
 Codename: stable
 Date: $DATE
-Architectures: $(IFS=, ; echo "${ARCHITECTURES[*]}")
+Architectures: ${ARCHITECTURES[*]}
 EOF
 
 # Add MD5 and SHA256 checksums to the Release file

@@ -7,35 +7,35 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Fri, 31 May 2024 17:32:58 +0000
-Architectures: amd64,arm64
+Date: Fri, 31 May 2024 17:50:06 +0000
+Architectures: amd64 arm64
 MD5Sum:
- f002512538d003e3ed56673c48dae4e9 dists/stable/Release.gpg
- 84b5cb9d3285ee5119097897baef6bdb dists/stable/InRelease
- 1c3d6d420b25bf021c44b18da99adcda dists/stable/main/binary-arm64/Packages.gz
+ bff63f6fcae8998d46dbb1bf7d64d71e dists/stable/Release.gpg
+ 4573a69e123dd3bcadeed2123fc49a78 dists/stable/InRelease
+ ff0d72cc78cb071274d584aea81d2f4d dists/stable/main/binary-arm64/Packages.gz
  b02c58177e1e2e4c92429db0e2b2106b dists/stable/main/.DS_Store
  d41d8cd98f00b204e9800998ecf8427e dists/stable/main/source/_
- 8f420aef83b390f8ace13fc5339afc28 dists/stable/main/binary-amd64/Packages.gz
+ e7c47233cef2ddfef0795ee49d1d0c3b dists/stable/main/binary-amd64/Packages.gz
 SHA256:
- 558c2d5213dba9328be1c4984bddf7b99c056519b8ec0f6ccb3921d8303acc14 dists/stable/Release.gpg
- 928cb40e22f956257dff0e3ee557bafa1ca29c39ea9d680bd291dcb33a7a030a dists/stable/InRelease
- 3be0634f59e5045ce7be9e759958145d14883433542abf286be21811bda38877 dists/stable/main/binary-arm64/Packages.gz
+ d53bc8e87435231f1ecf978a6d19bf476e8fbad83ed50c2ec53821a390545558 dists/stable/Release.gpg
+ a84b56191aae968adbe58249a248f6cc7b0171bf3fce3e7160199e12a1ca6076 dists/stable/InRelease
+ 2af88ae8513515b62f46bf2968b60445f2a90c4d2e1b116f3602bb088ea5b7b0 dists/stable/main/binary-arm64/Packages.gz
  b67c26153e1fdbf54f900af18bb5dc108ca4a5e1919de02c71e64719caf3f086 dists/stable/main/.DS_Store
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 dists/stable/main/source/_
- a937e574fc2d54c954b601e68ae927d6186b6599c861d9828eac71a1e8f19839 dists/stable/main/binary-amd64/Packages.gz
+ ff7dd4728e3cd9f5b9be260d083a67a669bbc74b277d90e390f4989ec66488f4 dists/stable/main/binary-amd64/Packages.gz
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEdoMdfkknegbK5NnAt1H2rE+m2Y8FAmZaCcoACgkQt1H2rE+m
-2Y/W4g//WFV+10bbgoDnf/QnHe5RW1fxdCHEhk1KwqHggwd5JNivu4Kef5ZUIW5j
-3PIr5JGJ6udLBcBQMNC67HVuMS2ndu+v20JyMXZfIhtJV/eSZGAOKZY2K+SeMOcG
-dkvTQ3BlRIh8tLMn+tBW7igWJbtf4BfypZ/BgiAVC0DUzIWIV/9guXght8/2yfLe
-8Wx/x8WcdJI695F3875bOGP/3OmttEJP7oub75AQxe7pCa7ddrZ0bjDkRq25Gpzv
-nX05SBeUitcXDs4OLyR2T935JPQvHpeblZjb2LqRvSguuYr0i0vd4EQK8jtpab2M
-OKyjvMmwLGvRUs6hbyTaID/42fUdLydpHFFuuc/inVt8QpFn/qET7acme1bnKGi+
-CrJrQz0ZLOa39tl8I50fZ9BgbGq1cHNeZp3HyO8g7AKyb9hk19HqG6sDc+z1H1EW
-u17jP3Gr86zIS52wPNS3SHZsX9dkc/9LrlB5PrJztrKx8Ni7lX2s5rJLg72aYa8E
-a0JCGlavzsL5Vin4+/+miCphUWz0uwwxDm3erSz/onc70DQt4dDxJF8m+T+tMxG4
-UGhF0AArf58O82rq702hcPAcNEnMqzHJJP8l8ccvOBymsPU4TP2+B5H77ayyNUL2
-XQxEC4hc326YrEiadyUXgl6wuom6q3kkjd9iMS0xoeLM2+szCNQ=
-=pSy1
+iQIzBAEBCAAdFiEEdoMdfkknegbK5NnAt1H2rE+m2Y8FAmZaDc4ACgkQt1H2rE+m
+2Y9ZMg/+NDVRyQ6ViWWc4z5AORVK3lF3W10GA7XSTITL6WW0xWgSBp9uDBQJDndU
+tfRdtc39eIDPADEQ3JQdTt0yNks3mVM2NTpvyNSj3wvGxIO6t7u6V/fma6WWC2KG
+ZK2SSCkQQdvagqDnVJ8pW8H6dziWxUurQ3opFtG9SVmPmQAwMKH4YoLQkmsKofcz
+x/hSsicDFIVQ953H15QHzxcfpkL2fbWXFBwncsemwjC5HRX0BzjKM8pIECPdlALL
+T6J5BxvCJNl95t9JMJDLJsxKYwImQnqyS25slAwIh/x78orJ3C+DHSjNjARPz9P8
+C5YBNdMV1aXuysLfy8/fr2GdAX24xIDFe17kf/KyiCN11TRF5odmFji1t3EZAtbU
+6aRWN8vLEjwJuk5l/kGGOykjAiHykGC7o5Fx9QOWgIP90bwl8QgX4TF7nZfofuMK
+8h2xGXWjdcFPRqWE+KvuQ6tGJodnlRVvrK3YQlf0tA4t2iUUB+G3+Uxcx6XPENVl
+vCtlOtIXGCplcYZa/CEwi+KDbRI7rldheSmK/uEaQGyii/FwVW3F3YjAP5e7LCaY
+SkXJRoOTQLOPy3wkHIklJbhbPfgwhy6Te43gYfZMydfuJTkc7yobicgNW2fmTIwq
+ZLDWDDGXyx2240R16+Z3DwZMNcgMYWK8ZIejmXXKFydAviDjDaw=
+=roah
 -----END PGP SIGNATURE-----
