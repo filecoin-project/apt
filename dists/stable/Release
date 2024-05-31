@@ -4,8 +4,8 @@ Origin: CurioStorage
 Label: CurioStorage
 Architectures: amd64,arm64
 MD5Sum:
- 089082cbcfb9e2247a6323d0d738c422 dists/stable/Release.gpg
- 9ad606f532444116104d891df1a1d070 dists/stable/main/binary-arm64/Packages.gz
+ f8ede7325900add35dfceb44d401cb5f dists/stable/Release.gpg
+ 5fbb9e2e39289350e65c4be82d0297af dists/stable/main/binary-arm64/Packages.gz
  b02c58177e1e2e4c92429db0e2b2106b dists/stable/main/.DS_Store
  d41d8cd98f00b204e9800998ecf8427e dists/stable/main/source/_
- 28af3010e91833f8c6f370786416b655 dists/stable/main/binary-amd64/Packages.gz
+ 0a3c9af15bfe3082e7e1fbc22009db0e dists/stable/main/binary-amd64/Packages.gz
