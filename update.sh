@@ -38,8 +38,8 @@ EOF
   find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " $2 }'
 } >> "$RELEASE_FILE"
 
-# Sign the Release file
-gpg --default-key "support@curiostorage.org" --armor --yes --batch --detach-sign -o "dists/stable/Release.gpg" "$RELEASE_FILE"
-gpg --default-key "support@curiostorage.org" --clearsign --yes --batch -o "dists/stable/InRelease" "$RELEASE_FILE"
+# Sign the Release file (ASCII armored) and always overwrite
+gpg --default-key "support@curiostorage.org" --armor --detach-sign --yes --batch -o "dists/stable/Release.gpg" "$RELEASE_FILE"
+#gpg --default-key "support@curiostorage.org" --clearsign --yes --batch -o "dists/stable/InRelease" "$RELEASE_FILE"
 
 echo "Repository updated and indexed successfully."
