@@ -1,5 +1,7 @@
 # apt
-An official, signed Debian APT Software Repository for Filecoin software.
+A signed Debian APT Software Repository for Filecoin software.
+
+Current packages include curio-cuda and curio-opencl from Curio Storage, Inc.
 
 This is following the guide materials from: https://assafmo.github.io/2019/05/02/ppa-repo-hosted-on-github.html
 
