@@ -34,8 +34,8 @@ EOF
 
 # Add MD5 and SHA256 checksums to the Release file
 {
-  echo "MD5Sum:"
-  find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " $2 }'
+  #echo "MD5Sum:"
+  #find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " $2 }'
   
   echo "SHA256:"
   find dists/stable -type f ! -name "Release" -exec sha256sum {} \; | awk '{ print " " $1 " " $2 }'
