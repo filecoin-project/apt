@@ -5,12 +5,19 @@ echo "This also requires the private key for support@curiostorage.org in your ke
 
 REPO_PATH=$(dirname "$(realpath "$0")")
 ARCHITECTURES=("amd64" "arm64")
+OVERRIDE_FILE="override"
 
 cd "$REPO_PATH" || exit
 
+# Create the override file if it doesn't exist
+if [ ! -f "$OVERRIDE_FILE" ]; then
+  touch "$OVERRIDE_FILE"
+fi
+
 # Create Packages.gz for each architecture
 for ARCH in "${ARCHITECTURES[@]}"; do
-  dpkg-scanpackages --multiversion "pool/main/$ARCH" /dev/null | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
+  mkdir -p "dists/stable/main/binary-$ARCH"
+  dpkg-scanpackages --multiversion "pool/main/$ARCH" "$OVERRIDE_FILE" | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
   echo "Created Packages.gz for $ARCH"
 done
 
