@@ -8,9 +8,9 @@ This is following the guide materials from: https://assafmo.github.io/2019/05/02
 Once this repo is working, setup for users should be:
 
 ```
-echo "deb http://filecoin-project.github.com/apt stable main" | sudo tee /etc/apt/sources.list.d/curio-repo.list
+echo "deb http://filecoin-project.github.io/apt stable main" | sudo tee /etc/apt/sources.list.d/curio-repo.list
 
-wget -O - http://filecoin-project.github.com/apt/KEY.gpg | sudo apt-key add -
+wget -O - http://filecoin-project.github.io/apt/KEY.gpg | sudo apt-key add -
 
 sudo apt update
 
