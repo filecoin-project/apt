@@ -10,7 +10,7 @@ cd "$REPO_PATH" || exit
 
 # Create Packages.gz for each architecture
 for ARCH in "${ARCHITECTURES[@]}"; do
-  dpkg-scanpackages  --multiversion "pool/main/$ARCH" /dev/null | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
+  dpkg-scanpackages --multiversion "pool/main/$ARCH" /dev/null | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
   echo "Created Packages.gz for $ARCH"
 done
 
@@ -38,9 +38,8 @@ EOF
   find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " $2 }'
 } >> "$RELEASE_FILE"
 
-gpg --default-key "support@curiostorage.org" -abs -o Release.gpg dists/stable/Release 
-gpg --default-key "support@curiostorage.org" --clearsign -o InRelease dists/stable/Release
-
 # Sign the Release file
-gpg --default-key "support@curiostorage.org" --detach-sign -o "dists/stable/Release.gpg" "dists/stable/Release"
+gpg --default-key "support@curiostorage.org" -abs -o "dists/stable/Release.gpg" "$RELEASE_FILE"
+gpg --default-key "support@curiostorage.org" --clearsign -o "dists/stable/InRelease" "$RELEASE_FILE"
+
 echo "Repository updated and indexed successfully."
