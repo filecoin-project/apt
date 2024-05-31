@@ -1,3 +1,6 @@
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA256
+
 Archive: stable
 Component: main
 Origin: CurioStorage
@@ -15,3 +18,19 @@ SHA256:
  b67c26153e1fdbf54f900af18bb5dc108ca4a5e1919de02c71e64719caf3f086 dists/stable/main/.DS_Store
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 dists/stable/main/source/_
  9beecb7154ab7a85f9b912443e4265f085bfd36c46e7b7c9496e2123cf737c78 dists/stable/main/binary-amd64/Packages.gz
+-----BEGIN PGP SIGNATURE-----
+
+iQIzBAEBCAAdFiEEdoMdfkknegbK5NnAt1H2rE+m2Y8FAmZaBPIACgkQt1H2rE+m
+2Y8zCw/9FpEusjHu2KHGpTnvhgGMVASDEQcISKNsebiSZjv58qGBUYAYk51vKDiv
+Ox8KiEbiRZWi8/XMPjUdnERu2RvoZ4WzorzSo8iHjVZYpIlmE4q4elsHT9pdZwA5
+x8VCvaB3JCnVh/9rX6QWIE2OeIn5dDRyVtw1uMmp2yqJ1gLEXejcFHQrcbZBeFLG
+XddIU3h2ESNkLKP3OCvPZ+np/04gJEpdnj7IGQxa3Yu5it5fZI9QXePJxbmfb4Ag
+jXobKOtKKKmYM6t27zGVel3zkrUl70z8iLKQouPcHQQSenhXXCUazmb6E7PSZvgI
+v8MvgsNgsyQBOodZ4j2BSirfCDM+T0FBGVrGgcQrKFeTpk+OgApscXIMw5vG/LlR
+IrA4+Se8akNRQb8peGjh0rGlmRKWoiFl/6xAc3ySFHXNJs2pp9iBDxSSwietqntF
+gRZMYA+4Sb7zOFmI/Wl92q0UtHQernNcLj59Sam5td0qq2T5GXih4LPTTTOAQo38
+376jcMZl2cSmykbFFOnwhRMpb+IFqJOUPx0ktqJRBM28VorlyQbjXMYsmbC3AjH2
+YtadBrrntGy4kUDrssoFU0utUX3mA36nStSaVPCKDgj0ZUf455vyrZCJ2zPhfRZg
+EP2AK2nHFvnOPv0zzn0jM8OH/UUssTI5LL3/RxkY7tOz6HMcZKw=
+=C6Mt
+-----END PGP SIGNATURE-----
