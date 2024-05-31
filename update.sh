@@ -24,18 +24,22 @@ fi
 
 # Create the Release file
 RELEASE_FILE="dists/stable/Release"
+DATE=$(date -Ru)
 cat > "$RELEASE_FILE" <<EOF
 Archive: stable
 Component: main
 Origin: CurioStorage
 Label: CurioStorage
+Suite: stable
+Codename: stable
+Date: $DATE
 Architectures: $(IFS=, ; echo "${ARCHITECTURES[*]}")
 EOF
 
 # Add MD5 and SHA256 checksums to the Release file
 {
-  #echo "MD5Sum:"
-  #find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " $2 }'
+  echo "MD5Sum:"
+  find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " $2 }'
   
   echo "SHA256:"
   find dists/stable -type f ! -name "Release" -exec sha256sum {} \; | awk '{ print " " $1 " " $2 }'
