@@ -4,7 +4,7 @@ Version: 1.22-dev
 Architecture: arm64
 Maintainer: Andrew Jackson <support@curiostorage.org>
 Depends: hwloc, mesa-opencl-icd
-Filename: pool/main/arm64/curio-cuda-1.22-dev_arm64.deb
+Filename: pool/main/arm64/curio-cuda-1.22_arm64.deb
 Size: 85885314
 MD5sum: bc96c4518b42040e8fae6ed52f588cda
 SHA1: be8b3396bd051185c3f9fb22b7d82a1b5731dd19
@@ -30,7 +30,7 @@ Version: 1.22-dev
 Architecture: arm64
 Maintainer: Andrew Jackson <support@curiostorage.org>
 Depends: hwloc, mesa-opencl-icd
-Filename: pool/main/arm64/curio-opencl-1.22-dev_arm64.deb
+Filename: pool/main/arm64/curio-opencl-1.22_arm64.deb
 Size: 85887350
 MD5sum: 8dea2e77529adae0593ad0178f79e656
 SHA1: 3fa831491e4e3f4cdb131e30c044c46da80733fa
