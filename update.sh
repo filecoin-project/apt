@@ -8,7 +8,7 @@ ARCHITECTURES=("amd64" "arm64")
 # Create Packages.gz for each architecture
 for ARCH in "${ARCHITECTURES[@]}"; do
   mkdir -p "dists/stable/main/binary-$ARCH"
-  dpkg-scanpackages "pool/main/$ARCH" /dev/null | tee "dists/stable/main/binary-$ARCH/Packages" |gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
+  dpkg-scanpackages "pool/main/$ARCH" /dev/null | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
   echo "Created Packages.gz for $ARCH"
 done
 
@@ -37,10 +37,10 @@ EOF
 # Add checksums to the Release file
 {
   echo "MD5Sum:"
-  find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " $2 }'
+  find dists/stable -type f ! -name "Release" -exec md5sum {} \; | awk '{ print " " $1 " " length($2) " " $2 }'
   
   echo "SHA256:"
-  find dists/stable -type f ! -name "Release" -exec sha256sum {} \; | awk '{ print " " $1 " " $2 }'
+  find dists/stable -type f ! -name "Release" -exec sha256sum {} \; | awk '{ print " " $1 " " length($2) " " $2 }'
 } >> "$RELEASE_FILE"
 
 # Sign the Release file (ASCII armored) and always overwrite

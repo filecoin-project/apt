@@ -4,21 +4,21 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Sat, 01 Jun 2024 03:01:37 +0000
+Date: Sat, 01 Jun 2024 03:08:06 +0000
 Architectures: amd64 arm64
 MD5Sum:
- 3496f0f14086d640f2ecf9b5cc600c42 dists/stable/Release.gpg
- 0d02e1e2a38e21cf26ebcde4403e0a53 dists/stable/InRelease
- 3575c3e884d82648ab56fb3528428f26 dists/stable/main/binary-arm64/Packages.gz
- 19595f1607a7e2a77ad0d1a5812b85ff dists/stable/main/binary-arm64/Packages
- b02c58177e1e2e4c92429db0e2b2106b dists/stable/main/.DS_Store
- 66d0852e86ebcac563552027ba2255bc dists/stable/main/binary-amd64/Packages.gz
- d41d8cd98f00b204e9800998ecf8427e dists/stable/main/binary-amd64/Packages
+ 662f21f0bbc78fc713aea9c5082745cf 24 dists/stable/Release.gpg
+ f8c86ca449afcfec99ac1902cf8bd7ee 22 dists/stable/InRelease
+ dc4d1a6983e9f83f57da38e58236e209 42 dists/stable/main/binary-arm64/Packages.gz
+ 19595f1607a7e2a77ad0d1a5812b85ff 39 dists/stable/main/binary-arm64/Packages
+ b02c58177e1e2e4c92429db0e2b2106b 27 dists/stable/main/.DS_Store
+ b0cd1c69b460897cab19347d405a32ff 42 dists/stable/main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 39 dists/stable/main/binary-amd64/Packages
 SHA256:
- a2d8d82a54bbc08e6c2e9c8e90b6903f06389a0ce397e5d30e47bc1a92679fcf dists/stable/Release.gpg
- 8629889be9b20c7696c41e7beca78b1d87e4b663a1a575d8a4dd5101d45075c5 dists/stable/InRelease
- c3fd391e73f170a54a8bf066b472fa49bd8d65c8c0430243e3f59e3d0b28f5b4 dists/stable/main/binary-arm64/Packages.gz
- 6f59f03a314cb346befc0ce2ad268d6868ed59aa8b622554a64c0d523310c42b dists/stable/main/binary-arm64/Packages
- b67c26153e1fdbf54f900af18bb5dc108ca4a5e1919de02c71e64719caf3f086 dists/stable/main/.DS_Store
- b1d6ddad0c2da8071deaae3ef14733984a20ba2c8aed3c296a595e15d2b058c0 dists/stable/main/binary-amd64/Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 dists/stable/main/binary-amd64/Packages
+ ad8eb3e01a6a49073d1c8ac6c7421ebf1b52731ec8031222d0433812e1bf9497 24 dists/stable/Release.gpg
+ e5653fce944150cd7e8798abcdcbabae9e0128b0c6183a19e24e2446a2d501d7 22 dists/stable/InRelease
+ ba07dbb0614ddf23e39f1ae0abc4c23db51659cd69615dd20d0fd0f11b3928fe 42 dists/stable/main/binary-arm64/Packages.gz
+ 6f59f03a314cb346befc0ce2ad268d6868ed59aa8b622554a64c0d523310c42b 39 dists/stable/main/binary-arm64/Packages
+ b67c26153e1fdbf54f900af18bb5dc108ca4a5e1919de02c71e64719caf3f086 27 dists/stable/main/.DS_Store
+ 39a547979bbf9b0ceddfae8d18c4ee1f1ece9cba2924ba7afce8492bf2d71f50 42 dists/stable/main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 39 dists/stable/main/binary-amd64/Packages
