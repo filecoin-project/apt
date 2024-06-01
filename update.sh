@@ -19,13 +19,17 @@ for ARCH in "${ARCHITECTURES[@]}"; do
   mkdir -p "dists/stable/main/binary-$ARCH"
   dpkg-scanpackages --multiversion "pool/main/$ARCH" "$OVERRIDE_FILE" | tee dists/stable/main/binary-$ARCH/Packages | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
   
-  cat <<EOF > dists/stable/main/binary-$ARCH/Release
+  RELEASE_FILE="dists/stable/main/binary-$ARCH/Release"
+
+  cat <<EOF > RELEASE_FILE
 Archive: stable
 Component: main
 Origin: CurioStorage
 Label: CurioStorage
 Architecture: $ARCH
 EOF
+  gpg --default-key "support@curiostorage.org" --armor --detach-sign --yes --batch -o "dists/stable/main/binary-$ARCH/Release.gpg" "$RELEASE_FILE"
+
   echo "Created Packages, Packages.gz, and Release for $ARCH"
 done
 

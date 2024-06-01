@@ -7,39 +7,43 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Sat, 01 Jun 2024 02:23:37 +0000
+Date: Sat, 01 Jun 2024 02:29:22 +0000
 Architectures: amd64 arm64
 MD5Sum:
- 9b3c45505c8231810897089b95f025d2 dists/stable/Release.gpg
- 09783b47a7437a6de0a8542908f7fef6 dists/stable/InRelease
- 15fbac9613d3b6985dd0033dacbaecb7 dists/stable/main/binary-arm64/Packages.gz
+ f16c5b4d0d651f33229602517bebc625 dists/stable/Release.gpg
+ 34aa124dfe4db8771cfac4282938b5c1 dists/stable/InRelease
+ ba039c7e71975b44c33beb6c41a04f63 dists/stable/main/binary-arm64/Packages.gz
+ fba757d841fd7d63d060b8145f001c12 dists/stable/main/binary-arm64/Release.gpg
  19595f1607a7e2a77ad0d1a5812b85ff dists/stable/main/binary-arm64/Packages
  b02c58177e1e2e4c92429db0e2b2106b dists/stable/main/.DS_Store
  d41d8cd98f00b204e9800998ecf8427e dists/stable/main/source/_
- 6f25f86bc3882ac14fec8561d0edc189 dists/stable/main/binary-amd64/Packages.gz
+ 5273447e375c360b4bd289998d86d03d dists/stable/main/binary-amd64/Packages.gz
+ 725a9afa322b1690e45d7b2af3be4e1c dists/stable/main/binary-amd64/Release.gpg
  d41d8cd98f00b204e9800998ecf8427e dists/stable/main/binary-amd64/Packages
 SHA256:
- a9f5005bd3e60d2d8c8477bd2a534bef8d6f081488bc8b4c9f6f0f22b25faee5 dists/stable/Release.gpg
- 0417306738aec2eb4de14f2cd5b541922fffc8297572d590ffa1945734981f38 dists/stable/InRelease
- d244b71a6117fdc04d306e016d737b4546dfcb3e44615e48cb0fb4db824b7290 dists/stable/main/binary-arm64/Packages.gz
+ ace22d307cfafe7052e00b02dd24201c9e78c6eb066e2b27a75ef7cffa71838e dists/stable/Release.gpg
+ 64e5f791effbc0a92ac5951d878537e7dce625cce9fbf3a976573f0c34ecf143 dists/stable/InRelease
+ b1ae94117353ec476529d19364c8e578096942679b9d0d916aec8b940202d00c dists/stable/main/binary-arm64/Packages.gz
+ 76942a070642f69fbef1e573170937a9e4faf8d712a79a6c2d3d407dd621b0a3 dists/stable/main/binary-arm64/Release.gpg
  6f59f03a314cb346befc0ce2ad268d6868ed59aa8b622554a64c0d523310c42b dists/stable/main/binary-arm64/Packages
  b67c26153e1fdbf54f900af18bb5dc108ca4a5e1919de02c71e64719caf3f086 dists/stable/main/.DS_Store
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 dists/stable/main/source/_
- d9de8a6d4c6b10daa7ad4f11677f4144ef15381a31dfceda5e930ce16af5ca2a dists/stable/main/binary-amd64/Packages.gz
+ ba8aab8f2e0b67de08d1d6ecddcb4347e5f06dcd55b0a1c425b1e2d3e19a2ed6 dists/stable/main/binary-amd64/Packages.gz
+ 1103319eca48927dffc6c8e602ac8db658d788b726d4b64ea33d0c3714bc3fc2 dists/stable/main/binary-amd64/Release.gpg
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 dists/stable/main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEdoMdfkknegbK5NnAt1H2rE+m2Y8FAmZahikACgkQt1H2rE+m
-2Y81qQ/+IgLf0MJY+vo6OwqXULlS08ariSOakBM3M4moHggAh5kPMnKuWghU69OF
-RBK3loDexeoIfFasfmGcYrHcM+38oJ95ggUX4FAEJ66lG4AK7xgVP16C0htcZaZ+
-t+GMgZY1tPpEZwLNl0NJMpEZmuJGgJyD+gWUVIVj4A239ks6aQwG9hCZHe7vOpgG
-JmqMfaNBMFB+mj3QyMjT+y8FUyHitBhtwsoEbjinh5vgYP0yvT5TXbvoucdFnmuL
-q1grOb/XXALJcqd03KIqXgPtVu0CtIPnqYUmpThCTyXa5A6B3NA6g0UKmsDNMNRj
-kFMm+4SoJgVv5aheLcq66wtGnJrwqsfYHYFi7qrMcSr0bwb/dz6dJzkO5R5k3Sn+
-PB6iC9lGSBvRH8GREqfDSn+k+jMltFbqiVs7IV87De03s6dtUw0Z8niuNx+zUTAf
-Nhj7pADzzTanV84un8yblWn2AKh+x73gn1ycPlsPb3i0N9zlvO5melv35S0VBamf
-8BVyyknqF8YES/jmMxRgK4bQWhYEh52+kvcyYQ8pmvg0ACVGVetDrcPCMsZ/gKDH
-YxeaONlBKoICEiCvKHxPaA72om77EqrVOCCqzFAojBi13cTzkGqbb35hn/YzZYSy
-l04SW9seROPX3Zg8nWyypPqGwnmxwK8On7mwteQlMGkDWBd07dM=
-=ObZj
+iQIzBAEBCAAdFiEEdoMdfkknegbK5NnAt1H2rE+m2Y8FAmZah4IACgkQt1H2rE+m
+2Y/8KxAAwcVl0Y8g6dsC4u2Gep4J0K34Vah5SYpc3G1HPLg2+4jXgDOxAsP0ymD7
+OYcXRTYAsWRsagclAzvkcUHJIw6I4iodFOup8+Ao9foVTxVaLLP49hgzFlgI8TaX
+qDSEjDTAWrUaG/EUCWWHhBF9QPqUv8QkjgNIuyIhvGq3avfN34YwCl86iaYO2AGH
+3eo4KEsz5j3GZgoO+6A0H7LJrneGHgrRODhHO1tccw5lcYvBM19SV0dH+be5CXaj
+fHiOA2xig8OqLAsS0GbIgHf7umrYX2rqSu/+UR4W4Mg4Wg94Ml7MHfY6niknfxuO
+DQyOnTBgf60I6bfdtJWsqNvBvJEf3cL1B4RqQ89UF57P0dibcc62euDFAQyj90o8
+1P4ukZKsq6M0i/qTzJ113/3W8sI15kKRsbNZxw1BVI0l55UnJU3qunOeQ6SHe2bj
+KcFZwpP5IdQGG7ZCI65GG7dBoFLXDla7CjP77rzkZ1qRGWc3CcYL5zE1rVmFiw46
+VDig20C+eXqENzgHsGvJpt14l6/dGyYPX682M/cdD7Uwy4oPFVacE7PRk0sLy6di
+GRR0yK3YL5en+Brp/9FvBtiSOz0pK8ME9guAyCHj+1e9Yx/JTOrgMbIHhI932Iok
+cyWzzgaVq86Xcfk2GwZ47v+IRDoqVUSOxT3kv2BLcbsqQxgjrhw=
+=30Rh
 -----END PGP SIGNATURE-----
