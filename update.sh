@@ -8,7 +8,7 @@ ARCHITECTURES=("amd64" "arm64")
 # Create Packages.gz for each architecture
 for ARCH in "${ARCHITECTURES[@]}"; do
   mkdir -p "dists/stable/main/binary-$ARCH"
-  dpkg-scanpackages "pool/main/$ARCH" /dev/null | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
+  dpkg-scanpackages "pool/main/$ARCH" /dev/null | tee "dists/stable/main/binary-$ARCH/Packages" |gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
   echo "Created Packages.gz for $ARCH"
 done
 

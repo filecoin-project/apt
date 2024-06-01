@@ -4,21 +4,21 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Sat, 01 Jun 2024 02:55:07 +0000
+Date: Sat, 01 Jun 2024 02:57:00 +0000
 Architectures: amd64 arm64
 MD5Sum:
- e10c345f2afaf5eb0264b09dc22dc6a0 dists/stable/Release.gpg
- 72e598289404e2a00004279a037ede69 dists/stable/InRelease
- ecc07ea045fcb7e5ae9e4d32d236172a dists/stable/main/binary-arm64/Packages.gz
+ 675123d647d6d962f042766272442e73 dists/stable/Release.gpg
+ e2248400a8e3f0c0769b8f19d925c327 dists/stable/InRelease
+ a8f6fa27cac1ab82d77229eb328a8ec5 dists/stable/main/binary-arm64/Packages.gz
  19595f1607a7e2a77ad0d1a5812b85ff dists/stable/main/binary-arm64/Packages
  b02c58177e1e2e4c92429db0e2b2106b dists/stable/main/.DS_Store
- b74019c543c5ce41535b3501564f079d dists/stable/main/binary-amd64/Packages.gz
+ 440ea309b0d3e30600dc64eb0fb7814c dists/stable/main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e dists/stable/main/binary-amd64/Packages
 SHA256:
- 844eaade00df4ee12741ae3d46936d809de9009aa168baf218485105516d2452 dists/stable/Release.gpg
- 64bfa6eed0bc9da2d7358f5a12edc3ba47d06bcb841572df8e7f3697db2424b4 dists/stable/InRelease
- 9d5f6d38c9ccf0f99d8b4f0e93d412af4322b0e960b8b8d56347442c43704c36 dists/stable/main/binary-arm64/Packages.gz
+ eee48e46c1d83adde6d3d4d6e9ef952dcea1ba26fa8dd045c4da28c508c80879 dists/stable/Release.gpg
+ 23041be81751f68626536c1ca6bfac93f8e548a85e584781f090b770e8ade218 dists/stable/InRelease
+ 7530c7a9b69c2cef854a97322415cba9936bbf5ca10e7d1cbfeff03a83fcb9c9 dists/stable/main/binary-arm64/Packages.gz
  6f59f03a314cb346befc0ce2ad268d6868ed59aa8b622554a64c0d523310c42b dists/stable/main/binary-arm64/Packages
  b67c26153e1fdbf54f900af18bb5dc108ca4a5e1919de02c71e64719caf3f086 dists/stable/main/.DS_Store
- 4a92893313f9348a78227b56be4445986a82491cf1bbdfbb810e7e62735de09b dists/stable/main/binary-amd64/Packages.gz
+ 63ad1fea868d918e2696d8c29bbc4242e2ea1f6af369374225239175981ba7b9 dists/stable/main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 dists/stable/main/binary-amd64/Packages
