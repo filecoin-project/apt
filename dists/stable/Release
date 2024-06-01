@@ -4,21 +4,19 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Sat, 01 Jun 2024 03:08:06 +0000
+Date: Sat, 01 Jun 2024 03:10:12 +0000
 Architectures: amd64 arm64
 MD5Sum:
- 662f21f0bbc78fc713aea9c5082745cf 24 dists/stable/Release.gpg
- f8c86ca449afcfec99ac1902cf8bd7ee 22 dists/stable/InRelease
- dc4d1a6983e9f83f57da38e58236e209 42 dists/stable/main/binary-arm64/Packages.gz
+ 65e972fb26bd28bd135eb473174fed65 24 dists/stable/Release.gpg
+ 7151dd5953a9df629e3b56f4b23446fb 22 dists/stable/InRelease
+ e02c3cb5d36edcc3f6a7476e3b121ece 42 dists/stable/main/binary-arm64/Packages.gz
  19595f1607a7e2a77ad0d1a5812b85ff 39 dists/stable/main/binary-arm64/Packages
- b02c58177e1e2e4c92429db0e2b2106b 27 dists/stable/main/.DS_Store
- b0cd1c69b460897cab19347d405a32ff 42 dists/stable/main/binary-amd64/Packages.gz
+ fc2d51c9008f90a7f16f6d377559bb51 42 dists/stable/main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 39 dists/stable/main/binary-amd64/Packages
 SHA256:
- ad8eb3e01a6a49073d1c8ac6c7421ebf1b52731ec8031222d0433812e1bf9497 24 dists/stable/Release.gpg
- e5653fce944150cd7e8798abcdcbabae9e0128b0c6183a19e24e2446a2d501d7 22 dists/stable/InRelease
- ba07dbb0614ddf23e39f1ae0abc4c23db51659cd69615dd20d0fd0f11b3928fe 42 dists/stable/main/binary-arm64/Packages.gz
+ ea0cdf2f40e1c33dde8123ec750c27d390a3cb65dafa7889beb75e5a7122f7d8 24 dists/stable/Release.gpg
+ 36bd2d3f1f9c6a9b41d4d42f95653740035d57a527f1a117d0154e27df9d1024 22 dists/stable/InRelease
+ d942177d870a0036979813accfecd22e7050d1da95cc52124cfa037ac0189390 42 dists/stable/main/binary-arm64/Packages.gz
  6f59f03a314cb346befc0ce2ad268d6868ed59aa8b622554a64c0d523310c42b 39 dists/stable/main/binary-arm64/Packages
- b67c26153e1fdbf54f900af18bb5dc108ca4a5e1919de02c71e64719caf3f086 27 dists/stable/main/.DS_Store
- 39a547979bbf9b0ceddfae8d18c4ee1f1ece9cba2924ba7afce8492bf2d71f50 42 dists/stable/main/binary-amd64/Packages.gz
+ 1bb1d3f20b1d525d8726ffca59403505e4ffb5d04f23c2dea6539feb25de7719 42 dists/stable/main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 39 dists/stable/main/binary-amd64/Packages

@@ -7,37 +7,35 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Sat, 01 Jun 2024 03:08:06 +0000
+Date: Sat, 01 Jun 2024 03:10:12 +0000
 Architectures: amd64 arm64
 MD5Sum:
- 662f21f0bbc78fc713aea9c5082745cf 24 dists/stable/Release.gpg
- f8c86ca449afcfec99ac1902cf8bd7ee 22 dists/stable/InRelease
- dc4d1a6983e9f83f57da38e58236e209 42 dists/stable/main/binary-arm64/Packages.gz
+ 65e972fb26bd28bd135eb473174fed65 24 dists/stable/Release.gpg
+ 7151dd5953a9df629e3b56f4b23446fb 22 dists/stable/InRelease
+ e02c3cb5d36edcc3f6a7476e3b121ece 42 dists/stable/main/binary-arm64/Packages.gz
  19595f1607a7e2a77ad0d1a5812b85ff 39 dists/stable/main/binary-arm64/Packages
- b02c58177e1e2e4c92429db0e2b2106b 27 dists/stable/main/.DS_Store
- b0cd1c69b460897cab19347d405a32ff 42 dists/stable/main/binary-amd64/Packages.gz
+ fc2d51c9008f90a7f16f6d377559bb51 42 dists/stable/main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 39 dists/stable/main/binary-amd64/Packages
 SHA256:
- ad8eb3e01a6a49073d1c8ac6c7421ebf1b52731ec8031222d0433812e1bf9497 24 dists/stable/Release.gpg
- e5653fce944150cd7e8798abcdcbabae9e0128b0c6183a19e24e2446a2d501d7 22 dists/stable/InRelease
- ba07dbb0614ddf23e39f1ae0abc4c23db51659cd69615dd20d0fd0f11b3928fe 42 dists/stable/main/binary-arm64/Packages.gz
+ ea0cdf2f40e1c33dde8123ec750c27d390a3cb65dafa7889beb75e5a7122f7d8 24 dists/stable/Release.gpg
+ 36bd2d3f1f9c6a9b41d4d42f95653740035d57a527f1a117d0154e27df9d1024 22 dists/stable/InRelease
+ d942177d870a0036979813accfecd22e7050d1da95cc52124cfa037ac0189390 42 dists/stable/main/binary-arm64/Packages.gz
  6f59f03a314cb346befc0ce2ad268d6868ed59aa8b622554a64c0d523310c42b 39 dists/stable/main/binary-arm64/Packages
- b67c26153e1fdbf54f900af18bb5dc108ca4a5e1919de02c71e64719caf3f086 27 dists/stable/main/.DS_Store
- 39a547979bbf9b0ceddfae8d18c4ee1f1ece9cba2924ba7afce8492bf2d71f50 42 dists/stable/main/binary-amd64/Packages.gz
+ 1bb1d3f20b1d525d8726ffca59403505e4ffb5d04f23c2dea6539feb25de7719 42 dists/stable/main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 39 dists/stable/main/binary-amd64/Packages
 -----BEGIN PGP SIGNATURE-----
 
-iQIzBAEBCAAdFiEEdoMdfkknegbK5NnAt1H2rE+m2Y8FAmZakJYACgkQt1H2rE+m
-2Y/OrRAAuViAbBq7Nww3tp5e9eXrXZ+fnVF1B5jSN6ufFjMCstoQ/CJ3+e4kEMst
-LNLxbMGcb10hvQ9tC7LImlT1kce2uqofwZAC31jUib662cwVUBETL+wZE9YemvWr
-roXEJGKntC1LxyNuNiVj06pKqygHD5GD4hV1DGQuGsbgeDYfT9hmjTHYCZXHiF3s
-PCBAlJt2zDaCe4UHrG5sYhrOYXbscKk27UmV9wIYGTKyJXDzb+wbIK1aYj5pGmR7
-jox4qoD/Fv6u3xeLGeXh2oDkS9i9dPVAFDGwRbEI61xmYoWoeAir9DTcgZuaTdeG
-4jCINpeGcS+Vw/EvIjZadgCO+6fQE94+vYgveIjQ2ixgPYbfbS+7gyz6bc/kr2BD
-jvc02MxZUrXpThzSpQ5ULcuuRJZPLh+9BT5t9yTO4d0Y3EQmzF8m0Q/q49nkiGOA
-yhVZtFHl3ujKG2o5McL/m9S/9x6oLyWV7LANeCaFjcJYYbxwh8UNhwAlBnzjdSeQ
-+lDBGV+X7xF0kjNky9ZGCfc/H84Zs6cDROtnPCKjWVOBM2Vr5XygSmmPIt6+iI15
-y0rIVm5iODvgisvYFersXgOxiTPLNzKlniHRwJZTR8NlzHTxtN0mQKtg8ljEwhTQ
-QvT+QuwDWBSBknUKGVt9+5a+c4jbG7LtLpOYL6IbUaiQCvE92co=
-=HbWB
+iQIzBAEBCAAdFiEEdoMdfkknegbK5NnAt1H2rE+m2Y8FAmZakRQACgkQt1H2rE+m
+2Y/Leg//UrqSfBtValSdci1Cf93jFjOir878hrVsKjl0VZFOhkJpvbLbyuCf9VlJ
+J6aI88L1VV1mSrdq84TxASkUmtGXyd2pOGo1RD/896ZGNJ3r1tQgBaeqPa75at28
+x7Fam7kRNM4W9RU0YZ1rrN7KwBz+UwMo0A1zwgmsV+Q3wU/7Vw+AxY/ZFm+BJnKX
+TJWv2joBpPvqcd3Y80TnDeCGoau3cVEjYDbpHoYFLFwX3kLzUEV356j2NzcJIB3O
+yjwb0aRz/YBysPTrUACcOSBAqa9IfBNI4j98h+By/nCXqLJsi4Ii8A3CJik6lWTo
+zbBRXvbKm8WkPWpz4B72W+9SgKS5EQ267/Igncyq6W/5Sicec9k/mQo6BTTct2W5
+BQcP/f8IfS0F0xiuirQUeljgqPUlOAOEpOKmNxTI1fnOdLF4YoB+xQSRfPdsewrH
+QiAgp+XqXBvBkf1dpf5M4zDV1TeuHQZbnXt2JZw9P/r86urExq5d3pEU+CCKMG4b
+pT8X6q6UIH6rYri3yNjlg5u0x095Xx4B0XGw95IIbr7cPrfxYA6ysGnbM0o4n+q8
+Hq88v5QvzHra1GfSp/LLkGE8/fFIVTh1Hf8Caa1cV2r+4B0s6QVIp61L7piZ9mtA
+bSz1VnBW3jAvAjoXAHGt31PT74FLddNyb1oN400U4WeR8LlHOpg=
+=D/Ru
 -----END PGP SIGNATURE-----
