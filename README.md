@@ -16,3 +16,10 @@ sudo apt install curio-cuda
    or
 sudo apt install curio-opencl
 ```
+
+
+For release:
+In Curio root:  go run apt/make_debs.go private_key.b64
+Copy here to pool/....
+here: ./update.sh
+commit to main
