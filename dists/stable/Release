@@ -4,19 +4,15 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Sat, 01 Jun 2024 03:10:12 +0000
+Date: Sat, 01 Jun 2024 03:15:11 +0000
 Architectures: amd64 arm64
 MD5Sum:
- 65e972fb26bd28bd135eb473174fed65 24 dists/stable/Release.gpg
- 7151dd5953a9df629e3b56f4b23446fb 22 dists/stable/InRelease
- e02c3cb5d36edcc3f6a7476e3b121ece 42 dists/stable/main/binary-arm64/Packages.gz
- 19595f1607a7e2a77ad0d1a5812b85ff 39 dists/stable/main/binary-arm64/Packages
- fc2d51c9008f90a7f16f6d377559bb51 42 dists/stable/main/binary-amd64/Packages.gz
- d41d8cd98f00b204e9800998ecf8427e 39 dists/stable/main/binary-amd64/Packages
+ 89ecd2cf2ddf4a98875abff6ccc4ec34 24 dists/stable/Release.gpg
+ 8b33e0587a5de50bffaf67e6d3bd71fa 22 dists/stable/InRelease
+ 5dad5837de96077e2973b8100c7d897c 42 dists/stable/main/binary-arm64/Packages.gz
+ ae4c4bd8a93248ba9f5eda13a65868a0 42 dists/stable/main/binary-amd64/Packages.gz
 SHA256:
- ea0cdf2f40e1c33dde8123ec750c27d390a3cb65dafa7889beb75e5a7122f7d8 24 dists/stable/Release.gpg
- 36bd2d3f1f9c6a9b41d4d42f95653740035d57a527f1a117d0154e27df9d1024 22 dists/stable/InRelease
- d942177d870a0036979813accfecd22e7050d1da95cc52124cfa037ac0189390 42 dists/stable/main/binary-arm64/Packages.gz
- 6f59f03a314cb346befc0ce2ad268d6868ed59aa8b622554a64c0d523310c42b 39 dists/stable/main/binary-arm64/Packages
- 1bb1d3f20b1d525d8726ffca59403505e4ffb5d04f23c2dea6539feb25de7719 42 dists/stable/main/binary-amd64/Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 39 dists/stable/main/binary-amd64/Packages
+ d743b16579c4f95398afc9ba7b1abe96fa374fe8de10bcd2da8996bd32ab9753 24 dists/stable/Release.gpg
+ 902cabb3068a27ad23f8a3eccf87db1c24434d088e6af0d1d349c1a057b481ea 22 dists/stable/InRelease
+ 491bad1894e230e64d70a0e88c57695a65f3333f693d87225e4477e1445f868c 42 dists/stable/main/binary-arm64/Packages.gz
+ 2bf36dc61db2c491665d07008a81470e7fa655e4bffa4aefd82c3baddc318175 42 dists/stable/main/binary-amd64/Packages.gz
