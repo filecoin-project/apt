@@ -17,8 +17,16 @@ fi
 # Create Packages.gz for each architecture
 for ARCH in "${ARCHITECTURES[@]}"; do
   mkdir -p "dists/stable/main/binary-$ARCH"
-  dpkg-scanpackages --multiversion "pool/main/$ARCH" "$OVERRIDE_FILE" | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
-  echo "Created Packages.gz for $ARCH"
+  dpkg-scanpackages --multiversion "pool/main/$ARCH" "$OVERRIDE_FILE" | tee dists/stable/main/binary-$ARCH/Packages | gzip -9c > "dists/stable/main/binary-$ARCH/Packages.gz"
+  
+  cat <<EOF > dists/stable/main/binary-$ARCH/Release
+Archive: stable
+Component: main
+Origin: CurioStorage
+Label: CurioStorage
+Architecture: $ARCH
+EOF
+  echo "Created Packages, Packages.gz, and Release for $ARCH"
 done
 
 # Create Sources.gz if source packages exist
