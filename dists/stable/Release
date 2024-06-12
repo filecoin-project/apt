@@ -4,19 +4,19 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Sat, 01 Jun 2024 04:17:22 +0000
+Date: Wed, 12 Jun 2024 08:11:57 +0000
 Architectures: amd64 arm64
 MD5Sum:
- cff744f74585ef0159c2f728a7ed35ff 900 main/binary-arm64/Packages.xz
- 1706add749732e8e3c02eef558a7f00e 803 main/binary-arm64/Packages.gz
- 9dcae637c271e03cc0c1039e0c57b3a4 2154 main/binary-arm64/Packages
- 8dc5aea5b03dff8595f096f9e368e888 32 main/binary-amd64/Packages.xz
- b09ce762d51a4044af358884ae58420c 20 main/binary-amd64/Packages.gz
- d41d8cd98f00b204e9800998ecf8427e 0 main/binary-amd64/Packages
+ 8dc5aea5b03dff8595f096f9e368e888 32 main/binary-arm64/Packages.xz
+ 4f89ac7304bd31d5cdc685ab725547ba 20 main/binary-arm64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ c52288c3949717d9ee3bb0298e5b0816 892 main/binary-amd64/Packages.xz
+ a795ec877e001ad3ad818c82c522a19b 810 main/binary-amd64/Packages.gz
+ 195124daf97a97e324b12d7ca2ea3935 2168 main/binary-amd64/Packages
 SHA256:
- f62da72bb0dff38c0d08dcf3d9cb124d740c09340c5136af666c89dffd874a12 900 main/binary-arm64/Packages.xz
- 91e640490249d0091758d890da8c09f4aa65a27ccf9ecbd28a92b46323f3b9ca 803 main/binary-arm64/Packages.gz
- afa72a8741a656d7daa6de6dc063e769345200c690ae89800bcd21f1c35d4e0e 2154 main/binary-arm64/Packages
- 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 main/binary-amd64/Packages.xz
- c86a9849abb54460137502bc478a33116222fd06fdd2633f81ab37fb2859ae96 20 main/binary-amd64/Packages.gz
- e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-amd64/Packages
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 main/binary-arm64/Packages.xz
+ a5ce0f8ef97600996c9a29ad92aa2b423e83ddb932e11e09677c385b173b6161 20 main/binary-arm64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ e20b5dc6903d0759c2ca1379cc0c13cfdccecad544c4aaa4f0b3e9f91ad8cde3 892 main/binary-amd64/Packages.xz
+ 3537bd3fa4b4d79cf84432990e421087893f4be17c42b236c56e21edc6d87f5f 810 main/binary-amd64/Packages.gz
+ 49bd304aab2a8ccc7304290ab7962da58aeed2730090edae2fc9657d2f610a02 2168 main/binary-amd64/Packages
