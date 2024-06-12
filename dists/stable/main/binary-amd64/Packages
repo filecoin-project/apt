@@ -5,10 +5,10 @@ Architecture: amd64
 Maintainer: Andrew Jackson <support@curiostorage.org>
 Depends: hwloc, mesa-opencl-icd, aria2
 Filename: pool/main/amd64/curio-cuda-1.22.0_amd64.deb
-Size: 98638402
-MD5sum: ab348a357403af2d5953356957c82e73
-SHA1: 5f4d586c3ac18b9260574f2c098c3b13a407c759
-SHA256: a866909ca7b32427e6abf0a791ca906fcb142eb6cc74a1f8749a8348bcb5dcec
+Size: 98571406
+MD5sum: 176b897ee7130a4c953cb879dee49164
+SHA1: 275bb4fa451b9ae53a3e3e271220d534df91d648
+SHA256: a8a7469242e89b5aba7b127f572ca64ecefb6f01172bdb2d483ddbd97a83cecc
 Section: Network
 Priority: optional
 Homepage: github.com/filecoin-project/curio
@@ -31,10 +31,10 @@ Architecture: amd64
 Maintainer: Andrew Jackson <support@curiostorage.org>
 Depends: hwloc, mesa-opencl-icd, aria2
 Filename: pool/main/amd64/curio-opencl-1.22.0_amd64.deb
-Size: 89970850
-MD5sum: 9f4a23e7b7e42ef144e390ad602cb871
-SHA1: 92479adc3a0b23173eb74de8a61aa6fd65fce3e8
-SHA256: 821a66b374eea97821b75ada663d4d346066496f50a54e08d38a3850a4fd76c8
+Size: 89969874
+MD5sum: 9e3f1c331e5ecefd2611ef31642cbffa
+SHA1: 88e935f02672e8da09526155139d9e0ad2626575
+SHA256: 2f85d3c0b2dd0632802e6951facdaac26a834fa0f92f42c288239bf55ec29756
 Section: Network
 Priority: optional
 Homepage: github.com/filecoin-project/curio
