@@ -1,0 +1,52 @@
+Package: curio-cuda
+Source: curio
+Version: 1.22.0
+Architecture: arm64
+Maintainer: Andrew Jackson <support@curiostorage.org>
+Depends: hwloc, mesa-opencl-icd, aria2
+Filename: pool/main/arm64/curio-cuda-1.22.0_arm64.deb
+Size: 91068714
+MD5sum: 9ad103b24ac9a0cc62c2d1e57919984a
+SHA1: fc47eaeab47d7ec0e380f64cc32ae022edddce3c
+SHA256: 26d0e70128827204efb023669624eff39527b0ed9bad43b08702832c841266c7
+Section: Network
+Priority: optional
+Homepage: github.com/filecoin-project/curio
+Description: A Filecoin Storage Provider implementation.
+ This Filecoin Storage Provider implementation is a fork of the Lotus project.
+ It improves upon the previous by solving more complete problem sets including
+ avoiding single points of failure, improving performance, and providing a
+ more robust and scalable solution.
+ It needs to be run in conjunction with the Filecoin network daemon and requires
+ setup of a Miner-ID and a Wallet-ID. See documentation on the website for more
+ information at curiostorage.org
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+
+Package: curio-opencl
+Source: curio
+Version: 1.22.0
+Architecture: arm64
+Maintainer: Andrew Jackson <support@curiostorage.org>
+Depends: hwloc, mesa-opencl-icd, aria2
+Filename: pool/main/arm64/curio-opencl-1.22.0_arm64.deb
+Size: 82112658
+MD5sum: db6fc60ff2af6f6a6faa0873c598e854
+SHA1: 81f24737df2f8c19fe9d3b8ab4fc0e3b9a98492e
+SHA256: dcc288218123487d909b2fc20b3e85c54b31d3e256847e4cf7cd12cba2947c71
+Section: Network
+Priority: optional
+Homepage: github.com/filecoin-project/curio
+Description: A Filecoin Storage Provider implementation.
+ This Filecoin Storage Provider implementation is a fork of the Lotus project.
+ It improves upon the previous by solving more complete problem sets including
+ avoiding single points of failure, improving performance, and providing a
+ more robust and scalable solution.
+ It needs to be run in conjunction with the Filecoin network daemon and requires
+ setup of a Miner-ID and a Wallet-ID. See documentation on the website for more
+ information at curiostorage.org
+Build-Depends: debhelper-compat (= 13)
+Rules-Requires-Root: no
+Standards-Version: 4.6.0
+
