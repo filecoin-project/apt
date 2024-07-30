@@ -4,19 +4,19 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Mon, 15 Jul 2024 21:15:08 +0000
+Date: Tue, 30 Jul 2024 17:18:58 +0000
 Architectures: amd64 arm64
 MD5Sum:
- f1a645081444c98a55208fadc8d88092 900 main/binary-amd64/Packages.xz
- b095b989667e7c3432c8501ec0eafe61 2169 main/binary-amd64/Packages
- ed35e3112d75f1f676113a60a8738e2c 810 main/binary-amd64/Packages.gz
- 7de94f5d072cdfa57b6d996ac798d636 896 main/binary-arm64/Packages.xz
- 8b6bdb95c96cb38978210631b7c065c4 2168 main/binary-arm64/Packages
- e176dc5befd267102b3ecc726bb4b508 809 main/binary-arm64/Packages.gz
+ ff20fa92ea805f1882a83355264b9d93 2168 main/binary-amd64/Packages
+ d538c19907cbc8c1320d45b3e95bc6fb 900 main/binary-amd64/Packages.xz
+ a9aceb04b217b5d54284e73bc2e7f40f 810 main/binary-amd64/Packages.gz
+ d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
+ 8dc5aea5b03dff8595f096f9e368e888 32 main/binary-arm64/Packages.xz
+ 4a4dd3598707603b3f76a2378a4504aa 20 main/binary-arm64/Packages.gz
 SHA256:
- 834113eba77a2c82e02b5e2edd41a65de86a51b6117e43193ce5045a3388ff3e 900 main/binary-amd64/Packages.xz
- 746c408cd462dd1c5c2a3972ac6a2072088d79ed8bb8bd11956c11ae6de365c8 2169 main/binary-amd64/Packages
- 0c33154aee359c2c10e8218fe0ea5f2ab404c720f337459c0f9230bc283aac28 810 main/binary-amd64/Packages.gz
- 8a5d6d6aff66cd2fd619170cccc9c3cf6b8d8ad60237a78a5ef5075fe7952e93 896 main/binary-arm64/Packages.xz
- 9e11c35d82f1e140a4277b666bfc5219d4e0e836dd618dce9094812640f9e482 2168 main/binary-arm64/Packages
- 3970db29993802b3fe859c9f2833a38d286071a108e12ed5607fbbf2099fc52d 809 main/binary-arm64/Packages.gz
+ f203c4c9e59862e4afb9a104d0167768b042f1873df4637729f20cb03d50c95d 2168 main/binary-amd64/Packages
+ 7f041413e82370ee640b215ced02a1fca43afe899526b7d9a56b6ba515f985a4 900 main/binary-amd64/Packages.xz
+ 55c9ba92d0f7404193bbd00e330863213184627c05b461e31af96a737e7dc496 810 main/binary-amd64/Packages.gz
+ e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 main/binary-arm64/Packages.xz
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec 20 main/binary-arm64/Packages.gz
