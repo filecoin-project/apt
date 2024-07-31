@@ -4,19 +4,19 @@ Origin: CurioStorage
 Label: CurioStorage
 Suite: stable
 Codename: stable
-Date: Wed, 31 Jul 2024 13:57:52 +0000
+Date: Wed, 31 Jul 2024 14:18:09 +0000
 Architectures: amd64 arm64
 MD5Sum:
- 8dc5aea5b03dff8595f096f9e368e888 32 main/binary-arm64/Packages.xz
- 4906dbe21b6bcfc9bd92d3f8b67fc025 20 main/binary-arm64/Packages.gz
+ 5cafa0fe73d51ddfcafbe651ed1d192e 2168 main/binary-amd64/Packages
+ 92cb8d8b73668b02fa20378d4f722cd9 896 main/binary-amd64/Packages.xz
+ 365b35ca0c36a6087f1d52aac38f1f18 808 main/binary-amd64/Packages.gz
  d41d8cd98f00b204e9800998ecf8427e 0 main/binary-arm64/Packages
- 390be332bfc65508609600e1218e48a7 908 main/binary-amd64/Packages.xz
- 042dc00c188c24aa10588fa5e0f1a312 810 main/binary-amd64/Packages.gz
- b095b989667e7c3432c8501ec0eafe61 2169 main/binary-amd64/Packages
+ 8dc5aea5b03dff8595f096f9e368e888 32 main/binary-arm64/Packages.xz
+ 4a4dd3598707603b3f76a2378a4504aa 20 main/binary-arm64/Packages.gz
 SHA256:
- 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 main/binary-arm64/Packages.xz
- baf4f40bbd4228ab7e4382d72bac5693ab2b17a63982b692b03c568e58295e89 20 main/binary-arm64/Packages.gz
+ 4e0e8d4d5ea3a188aaab906f9e1701f2629028b4324f7999347a236d95825524 2168 main/binary-amd64/Packages
+ c4763e3aef23ae484296dfefbf5818eb2fa474be662a90340157b9c72febeb17 896 main/binary-amd64/Packages.xz
+ 317d976f98f65798b1688d737d332b170623aa027c250af891790b8aeebcb0b4 808 main/binary-amd64/Packages.gz
  e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855 0 main/binary-arm64/Packages
- 74893f84fadf2f78e744ce6fc82c324eb208360591a8369425dcba6d9e20853e 908 main/binary-amd64/Packages.xz
- cf628abbf1cab842c252ac085ae2e2be41e840e5683c195d360b2b4a5d8599e3 810 main/binary-amd64/Packages.gz
- 746c408cd462dd1c5c2a3972ac6a2072088d79ed8bb8bd11956c11ae6de365c8 2169 main/binary-amd64/Packages
+ 0040f94d11d0039505328a90b2ff48968db873e9e7967307631bf40ef5679275 32 main/binary-arm64/Packages.xz
+ f61f27bd17de546264aa58f40f3aafaac7021e0ef69c17f6b1b4cd7664a037ec 20 main/binary-arm64/Packages.gz
