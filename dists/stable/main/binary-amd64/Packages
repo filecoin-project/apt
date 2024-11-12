@@ -1,14 +1,14 @@
 Package: curio-cuda
 Source: curio
-Version: 1.24.1
+Version: 1.24.2
 Architecture: amd64
 Maintainer: Andrew Jackson <support@curiostorage.org>
 Depends: hwloc, mesa-opencl-icd, aria2, bash-completion
-Filename: pool/main/amd64/curio-cuda-1.24.1_amd64.deb
-Size: 50141750
-MD5sum: 650c255802e9f637823068f5111d6907
-SHA1: 524378cfa57b69733ad0692cb67aa5b2099029a8
-SHA256: 8d2111b41947948c47ebd0bcf60d0dae2a850ab315dd60ea0cb1ebde0e040e36
+Filename: pool/main/amd64/curio-cuda-1.24.2_amd64.deb
+Size: 49705942
+MD5sum: e34e4c93be741d6df34c51f25da4587c
+SHA1: 95cba4e0aa5b96001dc46a35a5cc51fab1c91bbc
+SHA256: d92851e4e48c2d2e737e6cda0279d34de9c804cba14f17d8384641e8e009014f
 Section: Network
 Priority: optional
 Homepage: github.com/filecoin-project/curio
@@ -26,15 +26,15 @@ Standards-Version: 4.6.0
 
 Package: curio-opencl
 Source: curio
-Version: 1.24.1
+Version: 1.24.2
 Architecture: amd64
 Maintainer: Andrew Jackson <support@curiostorage.org>
 Depends: hwloc, mesa-opencl-icd, aria2, bash-completion
-Filename: pool/main/amd64/curio-opencl-1.24.1_amd64.deb
-Size: 50141526
-MD5sum: 120cac96576d8462314535e505b71012
-SHA1: febd4ad1771196e4869cb2b92e2a83426ea2d1cf
-SHA256: 905ce0e26a76fdff09eab696e45db83a8d3ca81371245ff07c478d791efb88a9
+Filename: pool/main/amd64/curio-opencl-1.24.2_amd64.deb
+Size: 49709054
+MD5sum: 8aea8584e9eb468bc9bb870cc34a4c9a
+SHA1: 0ec3fa4c6b1d9110524bc5175df27fc115d695e6
+SHA256: dbf1b6dff0b85590ce08abda708a57f329159bbc1ec81baf0fde34bc49f41b83
 Section: Network
 Priority: optional
 Homepage: github.com/filecoin-project/curio
